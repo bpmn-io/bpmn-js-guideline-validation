@@ -2,6 +2,8 @@
 
 A bpmn-js extention for guideline validations.
 
+![Screencast](docs/screencast.gif)
+
 ## Installation
 
 Install via [npm](https://www.npmjs.com/).
@@ -57,7 +59,7 @@ Check out `localhost:9013`
 - Unnecessary Gateway
 - Use of Parallel Gateway
 
-> Some of the guideline validations are just working properly, if another one is already fixed. For example, you need to modell a start event for the symmetric modelling check.
+> Some of the guideline validations are only working properly, if another one is already fixed. For example, you need to modell a start event for the symmetric modelling check.
 
 ## Licence
 MIT

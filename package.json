@@ -1,0 +1,52 @@
+{
+  "name": "bpmn-js-guideline-validator",
+  "version": "0.1.0",
+  "description": "bpmn-js guideline-validator extension",
+  "main": "index.js",
+  "scripts": {
+    "all": "grunt",
+    "dev": "grunt auto-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpmn-io/bpmn-js-guideline-validator.git"
+  },
+  "keywords": [
+    "bpmnjs-example"
+  ],
+  "author": {
+    "name": "Jelmen Guhlke",
+    "url": "https://github.com/JelmenGuhlke"
+  },
+  "contributors": [
+    {
+      "name": "bpmn.io contributors",
+      "url": "https://github.com/bpmn-io"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpmn-io/bpmn-js-guideline-validation/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "grunt": "^1.0.3",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "load-grunt-tasks": "~3.5.0",
+    "stringify": "^3.1.0"
+  },
+  "dependencies": {
+    "bpmn-js": "^1.1.1",
+    "diagram-js": "^1.0.0",
+    "jquery": "^3.3.1",
+    "min-dash": "^3.0.0"
+  }
+}

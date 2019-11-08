@@ -1,4 +1,4 @@
-# bpmn-js guideline validation 
+# bpmn-js guideline validation
 
 A bpmn-js extention for guideline validations.
 
@@ -8,8 +8,8 @@ A bpmn-js extention for guideline validations.
 
 Install via [npm](https://www.npmjs.com/).
 
-```
-npm install bpmn-js-guideline-validation
+```shell
+npm install bpmn-js-guideline-validator
 ```
 
 Add as additional module to [bpmn-js](https://github.com/bpmn-io/bpmn-js)
@@ -21,33 +21,32 @@ var BpmnModeler = require('bpmn-js/lib/Modeler');
 var guidelineValidation = require('bpmn-js-guideline-validation');
 
 var modeler = new BpmnModeler({
-    container: '#canvas',
-    additionalModules: [
-        guidelineValidation
-    ],
-    keyboard: { 
-        bindTo: document 
-    }
+  container: '#canvas',
+  additionalModules: [guidelineValidation],
+  keyboard: {
+    bindTo: document
+  }
 });
 ```
 
-> For the correct style of the extension you need to copy the assets in the root directory of your `index.html` and include the `css/guideline-validation.css` to your `index.html`. Have a look at the [example](example/index.html).
+> For the correct style of the extension you need to copy the assets in the root directory of your `index.html` and
+> include the `css/guideline-validation.css` to your `index.html`. Have a look at the [example](example/index.html).
 
 ## Example
+
 Install dependencies
 
-```
+```shell
 npm install
 ```
 
 Run example
 
-```
+```shell
 npm run dev
 ```
 
 Check out `localhost:9013`
-
 
 ## Current Guidelines
 
@@ -59,7 +58,9 @@ Check out `localhost:9013`
 - Unnecessary Gateway
 - Use of Parallel Gateway
 
-> Some of the guideline validations are only working properly, if another one is already fixed. For example, you need to modell a start event for the symmetric modelling check.
+> Some of the guideline validations are only working properly, if another one is already fixed. For example, you need to
+> modell a start event for the symmetric modelling check.
 
 ## Licence
+
 MIT
